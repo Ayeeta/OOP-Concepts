@@ -3,7 +3,7 @@ from classMobile import mobile
 class Samsung(classMobile):
     
     def __init__(self):
-        self.internalMemory = 4
+        self.phone_Name = 'Samsung'
     
     def GetWifiConnection(self):
         return 'wifi connected'  
